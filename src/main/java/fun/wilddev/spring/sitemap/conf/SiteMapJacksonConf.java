@@ -3,8 +3,6 @@ package fun.wilddev.spring.sitemap.conf;
 import com.ctc.wstx.api.WstxOutputProperties;
 import com.ctc.wstx.stax.WstxOutputFactory;
 
-import java.text.DateFormat;
-
 import com.fasterxml.jackson.dataformat.xml.ser.ToXmlGenerator;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
@@ -38,8 +36,6 @@ public class SiteMapJacksonConf {
         XmlMapper mapper = new XmlMapper(new XmlFactory(null, outputFactory));
 
         mapper.registerModule(new JavaTimeModule());
-        mapper.setDateFormat(DateFormat.getDateTimeInstance());
-
         mapper.enable(ToXmlGenerator.Feature.WRITE_XML_DECLARATION);
 
         return mapper;
