@@ -1,6 +1,6 @@
 package fun.wilddev.spring.sitemap.api;
 
-import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
 
 import lombok.*;
 
@@ -19,7 +19,7 @@ public class SiteMapEntry {
     /**
      * Last modification timestamp (lastmod)
      */
-    private final LocalDateTime lastModified;
+    private final OffsetDateTime lastModified;
 
     /**
      * All-args constructor
@@ -27,7 +27,7 @@ public class SiteMapEntry {
      * @param url - resource url (loc)
      * @param lastModified - last modification timestamp (lastmod)
      */
-    public SiteMapEntry(String url, LocalDateTime lastModified) {
+    public SiteMapEntry(String url, OffsetDateTime lastModified) {
 
         this.url = url;
         this.lastModified = lastModified;
