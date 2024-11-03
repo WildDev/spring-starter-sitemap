@@ -30,15 +30,15 @@ public class ExampleSiteMapLoader implements SiteMapLoader {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://test.website/test_1</loc>
-        <lastmod>2024-11-03T15:14:19.848022688</lastmod>
+        <lastmod>2024-11-03T18:24:19Z</lastmod>
     </url>
     <url>
         <loc>https://test.website/test_2</loc>
-        <lastmod>2024-11-03T15:14:19.848036447</lastmod>
+        <lastmod>2024-11-03T17:11:16Z</lastmod>
     </url>
     <url>
         <loc>https://test.website/test_3</loc>
-        <lastmod>2024-11-03T15:14:19.848041186</lastmod>
+        <lastmod>2024-11-03T17:54:17Z</lastmod>
     </url>
 </urlset>
 ```
