@@ -54,6 +54,6 @@ Also available in Maven central:
 <dependency>
     <groupId>fun.wilddev.lib</groupId>
     <artifactId>spring-starter-sitemap</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.1.RELEASE</version>
 </dependency>
 ```
